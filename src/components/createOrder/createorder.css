@@ -1,0 +1,60 @@
+.createOrder {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.createOrder h1 {
+    text-align: center;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.orderSummary {
+    margin-top: 20px;
+}
+
+.orderSummary h2 {
+    margin-bottom: 10px;
+}
+
+.orderItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.orderItem p {
+    margin: 0;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddb347;
+}

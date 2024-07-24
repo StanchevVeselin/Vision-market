@@ -1,0 +1,368 @@
+
+
+.header {
+    width: 100%;
+    height: 60px; 
+    display: flex;
+    background-color: #131921;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    z-index: 10;
+}
+
+.LogoAndHeaderAndSearch{
+    display: flex;
+    width: 30%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    color: #f4f1ec;
+    /* margin: 0 25px; */
+}
+
+.header__logoImage {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer; /* Добавено */
+}
+
+.header__logoTitle {
+    text-decoration: none;
+    border: 0;
+    color: white;
+    font-size: 1.5em; 
+    font-weight: bold;
+    cursor: pointer; /* Добавено */
+}
+
+.nav__catalog {
+    display: flex; 
+    text-decoration: none;
+    align-items:flex-start;
+    font-size: 1.5em; 
+    cursor: pointer; /* Добавено */
+}
+
+.nav__dropdown {
+    display: none; /* По подразбиране, менюто е скрито */
+    position: absolute;
+    top: 100%; /* Менюто ще се показва под логото/иконата */
+    left: 0;
+    width: 15%;
+    background-color: #131921;
+}
+
+.nav__itemLineZeroTest{
+    display: flex;
+    text-decoration: none;
+    width: auto;
+    cursor: pointer; /* Добавено */
+    border-bottom: 1px solid #f2f2f2
+}
+
+.nav__itemLineZero{
+    color: white;
+    text-decoration: none;
+    cursor: pointer; /* Добавено */
+}
+
+.rightSide {
+    display: flex;
+    width: 40%;
+    height: 60px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__nav{
+    width: 30%;
+}
+
+.nav__itemLineOne {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav__item {
+    
+    width: 30%;
+    
+}
+.loginAndRegister {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.logout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.logOutButton{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.logOutButton{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav__signin{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav__register{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.basket{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+}
+.nav__description{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav__description .nav__itemLineOne {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav__description .nav__itemLineTwo {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav__basket{
+    display: flex;
+    height: 100%;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+
+.itemBasket{
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: 5rem;
+}
+
+.nav__basketCount{
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+@media screen and (max-width: 600px){
+   .header {
+        background-color: #4B2B90;
+    }
+
+    .header__logoTitle{
+        display: none;
+    }
+
+    .header__nav{
+        display: none;
+    }
+
+    .rightSide{
+        width: 60%;
+    }
+
+    .nav__item{
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        font-size: 1rem;
+    }
+
+    .loginAndRegister{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .nav__description{
+        display: none;
+    }
+
+    .nav__catalog{
+        display: none;
+    }
+    .nav__itemLineZeroTest{
+        display: flex;
+        color: white;
+        cursor: pointer;
+        padding: 0 0 0.5rem 0;
+    }
+
+    .nav__itemLineZeroTest:hover {
+        color: #9999ff; /* Променя цвета при hover */
+    }
+    
+    .nav__itemLineZeroTest:active {
+        color: #FF4500; /* Променя цвета при кликване */
+    }
+
+    .nav__dropdown.menuOpen {
+        display: flex; 
+        flex-direction: column;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        background-color: #4B2B90;
+        /* max-width: 40%; */
+        padding: 0 0 0 1rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+}
+/*
+
+
+
+
+
+.nav__itemLineOne {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav__itemLineIcon {
+    font-size: 18px;
+    font-weight: 800; 
+    color: white;
+    padding-right: 1.5em;
+}
+
+.nav__basketIconLink {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 50px;
+    margin-left: 10px;
+    text-decoration: none; 
+}
+
+.nav__basketCount {
+    font-size: 1.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.login {
+    margin-right: 50px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.loginAndRegister {
+    display: flex;
+} */
+
+/* МЕДИА */
+
+/* Медийни заявки за мобилни устройства */
+/* @media (max-width: 800px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .header__logoImage {
+        width: 100%;
+        
+        box-sizing: none;
+        padding: 0 10px;
+    }
+    .header__logoTitle {
+        display: none;
+    }
+
+    .header__search {
+        display: none;
+    }
+
+    .header__nav {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .nav__item, .nav__catalog {
+        display: none; 
+    }
+
+    .nav__dropdown {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav__dropdownContent {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        background-color: #131921;
+        width: 100%;
+    }
+
+    .nav__dropdown:hover .nav__dropdownContent {
+        display: flex;
+    }
+
+    .nav__dropdownContent a, .nav__dropdownContent button {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav__dropdownContent a:hover, .nav__dropdownContent button:hover {
+        background-color: #575757;
+    }
+} */

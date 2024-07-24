@@ -1,0 +1,89 @@
+.catalog {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.catalog__container {
+    width: 100%; /* Ensure container takes full width */
+}
+
+.catalog__image {
+    width: 100%;
+    height: 200px;
+    z-index: -1;
+    margin-bottom: -50px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.catalog__row {  
+    display: flex; 
+    justify-content: space-between; /* Add this for proper spacing */
+    z-index: 1; 
+    margin-left: 5px;  
+    margin-right: 5px;
+}
+
+
+
+
+@media screen and (max-width: 600px){
+    .catalog{
+        display: flex;
+        width: 100%;
+        max-width: fit-content;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .catalog__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0.5rem;
+
+    }
+    .catalog__row{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width: 500px){
+    .catalog{
+        display: flex;
+        width: 350px;
+        max-width: max-content;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .catalog__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+
+    }
+    .catalog__row{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+}
+
+
+
