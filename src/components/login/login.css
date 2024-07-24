@@ -107,7 +107,7 @@
      .login__container > form > h5 {
         display: flex;
         padding: 0;
-       font-size: 1.6rem;
+       font-size: 1.2rem;
        border: 1px solid black;
        border-radius: 6px;
        max-width: max-content;
@@ -144,5 +144,16 @@
        border: 1px solid black;
        border-radius: 6px;
        font-weight: bold;
+       font-size: 1rem;
+     }
+     .login__registerButton {
+        display: flex;
+        max-width: max-content;
+        text-align: center;
+        justify-content: center;
+        height: auto;
+        margin: 0.5rem auto;
+        border: 2px solid black;
+        border-radius: 8px;
      }
   }

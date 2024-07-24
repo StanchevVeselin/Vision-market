@@ -38,7 +38,7 @@ function App() {
     
     </Authprovider>
     </StateProvider>
-     {/* <Footer /> */}
+     <Footer />
 
     </>
     
