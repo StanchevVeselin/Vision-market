@@ -9,10 +9,10 @@ function Footer() {
           <div className="col-sm-2">
             <h3>Информация</h3>
             <ul>
-              <li><span href="https://vision-shop.bg/about_us">За мен - Независим дистрибутор на Vision</span></li>
-              <li><span href="https://vision-shop.bg/dostavka">Доставка</span></li>
-              <li><span href="https://vision-shop.bg/poveritelnost">Декларация за поверителност</span></li>
-              <li><span href="https://vision-shop.bg/uslovia-za-polzvane">Условия за ползване</span></li>
+              <li><span >За мен - Независим дистрибутор на Vision</span></li>
+              <li><span >Доставка</span></li>
+              <li><span >Декларация за поверителност</span></li>
+              <li><span >Условия за ползване</span></li>
             </ul>
           </div>
           <div className="col-sm-2">
@@ -50,11 +50,6 @@ function Footer() {
       </div>
       <div id="powered">
         <div className="container">
-          <div className="row">
-            <div className="col-sm-12">
-              <a href="https://vision-shop.bg/">Vision-shop.bg</a> ©
-            </div>
-          </div>
         </div>
       </div>
     </footer>
