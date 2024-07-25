@@ -1,0 +1,30 @@
+.orderConfirmation {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.orderConfirmation h1 {
+    margin-bottom: 20px;
+}
+
+.orderConfirmation p {
+    margin: 10px 0;
+}
+
+.orderConfirmation button {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.orderConfirmation button:hover {
+    background-color: #ddb347;
+}

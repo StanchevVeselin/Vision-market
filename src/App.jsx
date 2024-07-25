@@ -14,6 +14,7 @@ import Login from './components/login/Login';
 import Register from './components/register/Register';
 import { Authprovider } from './context/authContext';
 import Createorder from './components/createOrder/Createorder';
+import OrderConfirmation from './components/orderConfirmation/OrderConfirmation';
 
  
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Route path='/login' element={<Login />} /> 
         <Route path='/register' element={<Register />} />
         <Route path='/create-order' element={<Createorder />} />
+        <Route path='/order-confirmation' element={<OrderConfirmation />} />
      </Routes>
     
     </Authprovider>

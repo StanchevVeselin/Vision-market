@@ -58,3 +58,14 @@ button {
 button:hover {
     background-color: #ddb347;
 }
+
+.ordered{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .createOrder {
+        width: 100%;
+    }
+}

@@ -4,9 +4,11 @@ import "./createorder.css";
 import Basketproduct from "../basketproduct/Basketproduct";
 import { addDoc } from "firebase/firestore";
 import { collOrders } from "../../../firebase";
+import { Link, useNavigate } from "react-router-dom";
 function Createorder() {
     const [{ basket }, dispatch] = useStateValue();
     const [message, setMessage] = useState("");
+    const navigate = useNavigate()
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -26,6 +28,10 @@ function Createorder() {
             await addDoc(collOrders, formData);
             setMessage("Поръчката е успешно изпратена!");
             // Информирайте потребителя за успешното завършване на поръчката
+
+            dispatch({type: "EMPTY_BASKET"})
+
+            navigate("/order-confirmation")
             console.log("Успешно");
 
         } catch (error) {
@@ -72,7 +78,9 @@ function Createorder() {
                             />
                         ))}
                 </div>
-                <button type="submit">Завърши поръчката</button>
+                <button type="submit" className="ordered">
+                    Завърши поръчкатa
+                </button>
             </form>
         </div>
     );

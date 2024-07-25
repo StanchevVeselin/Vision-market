@@ -40,7 +40,6 @@ export const Authprovider = ({children}) => {
         try {
             const result = await createUserWithEmailAndPassword(auth, values.email, values.password)
             const user = result.user
-
             if(user) {
                 const token = await user.getIdToken()
                 setAuth({
@@ -48,9 +47,7 @@ export const Authprovider = ({children}) => {
                     email: user.email 
                 })
                 localStorage.setItem("accessToken", token)
-                console.log(user);
-                console.log(user.email);
-                console.log(state.user.email);
+                
                 navigate("/")
             } else {
                 alert("Error: User not created");

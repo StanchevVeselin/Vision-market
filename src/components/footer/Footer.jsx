@@ -9,7 +9,7 @@ function Footer() {
           <div className="col-sm-2">
             <h3>Информация</h3>
             <ul>
-              <li><span >За мен - Независим дистрибутор на Vision</span></li>
+              <li><span >За мен - Независим дистрибутор </span></li>
               <li><span >Доставка</span></li>
               <li><span >Декларация за поверителност</span></li>
               <li><span >Условия за ползване</span></li>

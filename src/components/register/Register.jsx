@@ -42,12 +42,12 @@ function Register() {
                     <button type='submit' className='register__signInButton' >Create Account</button>
                 </form>
 
-                <p>
+                <p className="privacy">
                     By signing-in you agree to the eShop Website Conditions of Use & Sale. Please
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
 
-                <button className='register__registerButton' >Create your eShop Account</button>
+                
             </div>
         </div>
     )

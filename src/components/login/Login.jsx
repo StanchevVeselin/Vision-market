@@ -37,12 +37,16 @@ const {values, onChange, onSubmit} = useForm(loginHandler, {
                     <button type='submit' className='login__signInButton' >Sign In</button>
                 </form>
 
-                <p>
+                <p className="privacy">
                     By signing-in you agree to the eShop Website Conditions of Use & Sale. Please
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
 
-                <button className='login__registerButton' >Create your eShop Account</button>
+                <button className='login__registerButton' >
+                    <Link to="/register" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        Create your eShop Account
+                    </Link>
+                </button>
             </div>
         </div>
     )
