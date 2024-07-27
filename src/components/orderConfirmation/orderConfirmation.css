@@ -28,3 +28,11 @@
 .orderConfirmation button:hover {
     background-color: #ddb347;
 }
+
+@media screen and (max-width: 600px) {
+    	
+}
+
+@media screen and (max-width: 400px) {
+
+}
