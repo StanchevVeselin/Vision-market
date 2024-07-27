@@ -1,6 +1,6 @@
 .orderConfirmation {
-    width: 60%;
-    margin: auto;
+    width: 80%;
+    margin: 3rem auto;
     padding: 20px;
     background-color: #f3f3f3;
     border-radius: 10px;
@@ -10,10 +10,12 @@
 
 .orderConfirmation h1 {
     margin-bottom: 20px;
+    font-size: 3rem;
 }
 
 .orderConfirmation p {
     margin: 10px 0;
+    font-size: 2rem;
 }
 
 .orderConfirmation button {
@@ -23,6 +25,7 @@
     border: 1px solid #a88734;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 2rem;
 }
 
 .orderConfirmation button:hover {
@@ -30,7 +33,25 @@
 }
 
 @media screen and (max-width: 600px) {
-    	
+    .orderConfirmation {
+        width: 80%;
+        margin: 1rem auto;
+        padding: 10px;
+        background-color: #f3f3f3;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .orderConfirmation h1 {
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+
+    .orderConfirmation p {
+        margin: 10px 0;
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
