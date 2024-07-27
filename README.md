@@ -1,3 +1,5 @@
+Deployment and Hosting -The application is hosted and accessible at the following link: https://vitamins-aba4e.web.app/
+
 Project Description
 This is a web application for selling vitamins, built using React and JavaScript. The application utilizes Firebase for database, hosting, functions, and authentication.
 
@@ -37,5 +39,4 @@ Features
 -Email Notifications: Automatically send emails when a new order is created to the owner and the customer.
 -Authentication: Secure login and registration for users.
 
-Deployment and Hosting
--The application is hosted and accessible at the following link: https://vitamins-aba4e.web.app/
+
