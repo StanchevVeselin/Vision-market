@@ -5,7 +5,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 Currently, two official plugins are available:
 
 
-README
+
 Project Description
 This is a web application for selling vitamins, built using React and JavaScript. The application utilizes Firebase for database, hosting, functions, and authentication.
 

@@ -191,7 +191,27 @@
 }
 
 
+@media screen and (max-width: 1800px) {
+    .nav__signin{
+        font-size: 1.5rem;
+        margin-right: 0.5rem;
+    }
+    .nav__register{
+        font-size: 1.5rem;
+    }
+    .itemBasket{
+        font-size: 2rem;
+    }
 
+    .rightSide{
+        display: flex;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+    .nav__basketCount{
+        padding-left: 0.4rem;
+    }
+}
 
 @media screen and (max-width: 600px){
    .header {
