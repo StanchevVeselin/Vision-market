@@ -134,8 +134,8 @@ function Header() {
               style={{ fontSize: "3rem" }}
             />
           </Link>
-        </div>
         <span className="nav__basketCount">{basket.length}</span>
+        </div>
       </div>
     </div>
   );
